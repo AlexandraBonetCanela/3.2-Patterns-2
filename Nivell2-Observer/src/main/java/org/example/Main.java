@@ -14,7 +14,7 @@ public class Main {
 
         stockMarketAgent.setMarketState("ES35 is rising");
 
-        stockMarketAgent.setMarketState("ES35 is falling");
         stockMarketAgent.unsubscribe(indraStocks);
+        stockMarketAgent.setMarketState("ES35 is falling");
     }
 }
