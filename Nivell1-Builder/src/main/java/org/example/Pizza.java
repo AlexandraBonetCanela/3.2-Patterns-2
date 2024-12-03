@@ -3,15 +3,16 @@ package org.example;
 import org.example.enums.Dough;
 import org.example.enums.Size;
 
-import java.util.ArrayList;
+import java.util.List;
+
 
 public class Pizza {
 
     private Size size;
     private Dough dough;
-    private ArrayList<String> toppings;
+    private List<String> toppings;
 
-    public Pizza(Size size, Dough dough, ArrayList<String> toppings) {
+    public Pizza(Size size, Dough dough, List<String> toppings) {
         this.size = size;
         this.dough = dough;
         this.toppings = toppings;

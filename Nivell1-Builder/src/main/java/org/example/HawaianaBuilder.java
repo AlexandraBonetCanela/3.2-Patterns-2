@@ -31,7 +31,7 @@ public class HawaianaBuilder implements PizzaBuilder{
     }
 
     @Override
-    public void setToppings(List<String> toppings){
+    public void addExtraToppings(List<String> toppings){
         this.toppings.addAll(toppings);
     }
 

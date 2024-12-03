@@ -1,14 +1,15 @@
 package org.example;
 
-import java.util.ArrayList;
+import org.example.enums.Dough;
+import org.example.enums.Size;
+
+import java.util.List;
 
 public interface PizzaBuilder {
 
-    void setSize(String size);
-
-    void setDoughType(String doughType);
-
-    void setToppings(ArrayList<String> toppings);
+    void setSize(Size size);
+    void setDoughType(Dough doughType);
+    void addExtraToppings(List<String> toppings);
 
     Pizza build();
 }
